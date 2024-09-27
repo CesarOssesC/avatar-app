@@ -10,5 +10,5 @@
 
 
 10.times do
-    Image.create(url_image: Faker::Avatar.image(slug: "my-own-slug",  format: "jpg", set: "set4", bgset: "bg1"))
+    Image.create(url_image: Faker::Avatar.image)
 end
